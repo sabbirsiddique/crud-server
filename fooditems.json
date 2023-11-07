@@ -1,0 +1,185 @@
+[
+    {
+      "foodName": "Pizza",
+      "foodImg": "pizza.jpg",
+      "foodCategory": "Italian",
+      "price": 12.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Sushi",
+      "foodImg": "sushi.jpg",
+      "foodCategory": "Japanese",
+      "price": 18.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Hamburger",
+      "foodImg": "hamburger.jpg",
+      "foodCategory": "American",
+      "price": 8.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Salad",
+      "foodImg": "salad.jpg",
+      "foodCategory": "Various",
+      "price": 7.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Pasta",
+      "foodImg": "pasta.jpg",
+      "foodCategory": "Italian",
+      "price": 11.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Tacos",
+      "foodImg": "tacos.jpg",
+      "foodCategory": "Mexican",
+      "price": 9.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Steak",
+      "foodImg": "steak.jpg",
+      "foodCategory": "Various",
+      "price": 22.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Chicken Wings",
+      "foodImg": "chicken_wings.jpg",
+      "foodCategory": "American",
+      "price": 10.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Burrito",
+      "foodImg": "burrito.jpg",
+      "foodCategory": "Mexican",
+      "price": 13.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Ice Cream",
+      "foodImg": "ice_cream.jpg",
+      "foodCategory": "Dessert",
+      "price": 6.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Fried Rice",
+      "foodImg": "fried_rice.jpg",
+      "foodCategory": "Chinese",
+      "price": 9.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Pancakes",
+      "foodImg": "pancakes.jpg",
+      "foodCategory": "Breakfast",
+      "price": 7.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Hot Dog",
+      "foodImg": "hot_dog.jpg",
+      "foodCategory": "American",
+      "price": 4.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Lobster",
+      "foodImg": "lobster.jpg",
+      "foodCategory": "Seafood",
+      "price": 24.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Shrimp Scampi",
+      "foodImg": "shrimp_scampi.jpg",
+      "foodCategory": "Seafood",
+      "price": 19.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Caesar Salad",
+      "foodImg": "caesar_salad.jpg",
+      "foodCategory": "Salad",
+      "price": 8.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Tofu Stir-Fry",
+      "foodImg": "tofu_stir_fry.jpg",
+      "foodCategory": "Vegetarian",
+      "price": 12.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "BBQ Ribs",
+      "foodImg": "bbq_ribs.jpg",
+      "foodCategory": "American",
+      "price": 15.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Fish and Chips",
+      "foodImg": "fish_and_chips.jpg",
+      "foodCategory": "British",
+      "price": 11.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Chocolate Cake",
+      "foodImg": "chocolate_cake.jpg",
+      "foodCategory": "Dessert",
+      "price": 8.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Ramen",
+      "foodImg": "ramen.jpg",
+      "foodCategory": "Japanese",
+      "price": 10.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Enchiladas",
+      "foodImg": "enchiladas.jpg",
+      "foodCategory": "Mexican",
+      "price": 14.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Gyro",
+      "foodImg": "gyro.jpg",
+      "foodCategory": "Greek",
+      "price": 9.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Lobster Bisque",
+      "foodImg": "lobster_bisque.jpg",
+      "foodCategory": "Seafood",
+      "price": 12.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Creme Brulee",
+      "foodImg": "creme_brulee.jpg",
+      "foodCategory": "Dessert",
+      "price": 7.99,
+      "quantity": 0
+    },
+    {
+      "foodName": "Baked Ziti",
+      "foodImg": "baked_ziti.jpg",
+      "foodCategory": "Italian",
+      "price": 10.99,
+      "quantity": 0
+    }
+  ]
+  
