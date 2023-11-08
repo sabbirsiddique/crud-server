@@ -1,6 +1,7 @@
 const express = require('express');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const cors = require('cors');
+const cookieParser = require('cookie-parser')
 require('dotenv').config();
 const app = express();
 
@@ -49,6 +50,19 @@ const client = new MongoClient(uri, {
         const result = await orderCollection.deleteOne(query)
         res.send(result)
       })
+
+
+      app.post('/api/v1/auth/access-token', async (req, res) => {
+        const user = req.body;
+        const token = jwt.sign(user, process.env.JWT_SECRET, { expiresIn: '1h' });
+        res
+          .cookie('token', token, {
+            httpOnly: false,
+            secure: true,
+            sameSite: 'none',
+          })
+          .send({ success: true });
+      });
 
 
       await client.db("admin").command({ ping: 1 });
