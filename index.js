@@ -4,6 +4,9 @@ const cors = require('cors');
 require('dotenv').config();
 const app = express();
 
+app.use(cors());
+app.use(express.json());
+
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.enfgege.mongodb.net/eateryevo?retryWrites=true&w=majority`;
 
@@ -23,15 +26,19 @@ const client = new MongoClient(uri, {
       // Send a ping to confirm a successful connection
 
       const foodCollection = client.db('eateryevo').collection('fooditems')
+      const orderCollection = client.db('eateryevo').collection('orders')
 
 
       app.get('/api/v1/fooditems',async(req,res)=>{
         const cursor = foodCollection.find()
         const result = await cursor.toArray()
-        
-        
             res.send(result)
         })
+
+
+      app.post('/api/v1/user/orrder',(req,res)=>{
+
+      })
 
 
       await client.db("admin").command({ ping: 1 });
