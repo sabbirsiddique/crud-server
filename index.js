@@ -59,6 +59,22 @@ const client = new MongoClient(uri, {
     const result = await foodCollection.deleteOne(query);
     res.send(result);
 })
+
+
+
+app.patch('/fooditems/:id', async (req, res) => {
+  const id = req.params.id;
+  const filter = { _id: new ObjectId(id) };
+  const updatedFood = req.body;
+
+  const updateDoc = {
+    $set: {
+      ...updatedFood,
+    },
+  };
+  const result = await foodCollection.updateOne(filter, updateDoc);
+  res.send(result);
+});
       // const orderCollection = client.db('eateryevo').collection('orders')
 
       // const gateman = (req,res)=>{
