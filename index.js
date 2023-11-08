@@ -51,6 +51,14 @@ const client = new MongoClient(uri, {
       const result = await foodCollection.insertOne(foodAdded);
       res.send(result);
   })
+
+
+  app.delete('/fooditems/:id', async (req, res) => {
+    const id = req.params.id;
+    const query = { _id: new ObjectId(id) };
+    const result = await foodCollection.deleteOne(query);
+    res.send(result);
+})
       // const orderCollection = client.db('eateryevo').collection('orders')
 
       // const gateman = (req,res)=>{
