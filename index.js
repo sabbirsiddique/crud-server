@@ -27,6 +27,7 @@ const client = new MongoClient(uri, {
       // Send a ping to confirm a successful connection
 
       const foodCollection = client.db('eateryevo').collection('fooditems')
+      const orderCollection = client.db('eateryevo').collection('orders')
 
 
       app.get('/fooditems', async (req, res) => {
@@ -73,6 +74,13 @@ app.patch('/fooditems/:id', async (req, res) => {
     },
   };
   const result = await foodCollection.updateOne(filter, updateDoc);
+  res.send(result);
+});
+
+
+app.post('/orders', async (req, res) => {
+  const order = req.body;
+  const result = await orderCollection.insertOne(order);
   res.send(result);
 });
       // const orderCollection = client.db('eateryevo').collection('orders')
